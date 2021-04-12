@@ -1,0 +1,250 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;  
+    padding: 0;
+    overflow-x: hidden;
+}
+p{
+  font-family: 'Karla', sans-serif; 
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+a{
+  text-decoration: none !important;
+  color: #dfdfdf;
+}
+/* navbar */
+.company-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #1d1d1d;
+}
+.navbar{
+    padding: 2% 10%;
+    position: fixed;
+    z-index: 100;
+    background:transparent;
+    transition-property: background,padding;
+    transition-duration: 0.5s;
+    opacity:0.99;
+    
+}
+.nav-trans{
+  background:#1d1d1d;
+}
+
+.nav-link{
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+}
+.nav-img{
+  width: 50%;
+}
+.dropdown-item{
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  
+}
+.dropdown-menu{
+  border:none;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+/* nav adjustments ends */
+
+/* title */
+.container-fluid{
+    background-color: #fdfdfd;
+    height: 100vh;
+    text-align: left;
+    padding:3% 10%;  
+}
+
+.title-text{
+    margin-top: 22%;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    position: relative;
+    z-index: 2;
+    
+}
+.read-more-button{
+    margin:10vh auto;
+    border: solid 2px #1d1d1d ;
+    border-radius: 0px;
+    color: #1d1d1d;
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+}
+.title-main{
+    text-align: center;
+}
+
+#particles-js{
+  height: 100%;
+  background: #eeeeee;
+  display: flex;
+  
+  
+}
+.particles-js-canvas-el{
+  position: absolute;
+}
+
+
+.heading-2{
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+}
+.date-text{
+    font-size: 1rem !important;
+}
+
+
+/* footer styling */
+
+#footer{
+    padding: 5% 10% 7%;
+    text-align: left;
+    background-color: #303841;
+    color: #eeeeee;
+}
+#footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    
+}
+.icon{
+    margin: 1%;
+    color: #eeeeee;
+}
+
+.timeline .timeline-heading{
+  margin-top:30px;
+}
+.partner-img{
+  height:30%;
+}
+#partners{
+  padding:3% 10% 0;
+  text-align: center;
+}
+#partners .container-fluid{
+
+  height: auto;
+  background-color: #fdfdfd;  
+  text-align: center;
+  padding:0 0;  
+}
+
+
+@media (max-width:1024px){
+    h2{
+        font-size: 1.7rem;
+    }
+    
+    /* navbar */
+    .navbar{
+      padding: 1%;
+    }
+    .company-name{
+        font-size: 1.5rem;
+    }
+    /* title */
+    .container-fluid{
+        height: 100vh;
+        text-align: left;
+        padding:3% 5%;
+    }
+    .title-text{
+        margin-top: 40vh;
+        font-size: 3rem;
+    }
+    /* common padding */
+    
+    
+    #timeline
+    {
+      padding: 10% 2% 10%;
+    }
+    .heading-2{
+        padding-top:5%;
+    }
+    #partners .container-fluid{
+      height: auto;
+      background-color: #fdfdfd;  
+      text-align: center;
+      padding:0 0; 
+    }
+    
+  
+    
+}
+@media (max-width:767px){
+  .title-text{
+    margin-top: 40vh;
+    font-size: 2rem;
+}
+}
+@media (max-width:1023px){
+  .nav-link{
+    
+    border-top:0.1px solid #707070 !important;
+    
+    
+  }
+  .navbar{
+    background:#1d1d1d;
+  }
+  .nav-link{
+    color: white !important;
+  }
+  .logo-dark{
+    display: none;
+  }
+  .logo-light{
+    display: block !important;
+  }
+  .navbar-toggler{
+    color:white !important;
+  }
+  .dropdown-menu{
+    background:transparent;
+    border:none;
+    color: white;
+  }
+  .dropdown-item{
+    color:white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    border-top:0.1px solid #707070 !important;
+    
+  }
+  .timeline .timeline-heading{
+    margin-top:0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+ 
